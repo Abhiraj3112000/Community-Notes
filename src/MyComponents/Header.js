@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Header(props) {
 
     return (
-        <nav id ="metaltag" className="navbar navbar-expand-lg navbar-light bg-info"  >
+        <nav id ="metaltag" className="navbar navbar-expand-lg navbar-light bg-secondary"  >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/" onClick={ (event) => event.preventDefault() } style={{cursor: 'none', margin:"0 3rem 0 40%" }}>{props.title}</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
