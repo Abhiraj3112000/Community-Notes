@@ -60,7 +60,7 @@ function App() {
   return ( 
     <div className="bg-dark text-light"> 
     <Router>
-      <Header title="My Notes" searchBar={false} /> 
+      <Header title="Community Notes" searchBar={false} /> 
       <Switch>
           <Route exact path="/" render={()=>{
             return(
